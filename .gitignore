@@ -1,0 +1,22 @@
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore build output (optional, if you compile TypeScript to JavaScript)
+dist/
+out/
+
+# Ignore TypeScript configuration files (optional, adjust as needed)
+tsconfig.json
+tsconfig.tsbuildinfo
+
+# Ignore any log files or generated files
+*.log
+*.json
+
+# Ignore editor or IDE specific files (e.g., Visual Studio Code)
+.vscode/
+.idea/
+
+# Ignore npm or yarn lock files (package-lock.json or yarn.lock)
+package-lock.json
+yarn.lock
